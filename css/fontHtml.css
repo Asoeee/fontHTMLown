@@ -26,25 +26,26 @@
 		background-color: #fff;
 		color: red;
 	}
-
 	@font-face{
-		font-family: "imooc-icon";
-		src: url("../fonts/icomoon.eot"); /* IE9 兼容模式 */
-		src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype")
-			 ,url("../fonts/icomoon.woff") format("woff")
-			 ,url("../fonts/icomoon.ttf") format("truetype")
-			 ,url("../fonts/icomoon.svg") format("svg");
+		font-family: "icomoon-icon";
+		src:url("../fonts/icomoon.eot"); /* IE9 兼容模式 */
+		src:url("../fonts/icomoon.eot?#iefix")
+		,url("../fonts/icomoon.svg")
+		,url("../fonts/icomoon.ttf")
+		,url("../fonts/icomoon.woff");
 		font-weight: normal;
 		font-style: normal;
 	}
 	.imooc-icon{
-		font-family: "imooc-icon";
-		font-style: normal;
+		font-family: "icomoon-icon";
 		font-weight: normal;
-		font-size: 64px;
+		font-style: normal;
+		font-size: 32px;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	}
+}
+
 
 
 /* .yt-overlay-main .yt-overlay-end span.move{
