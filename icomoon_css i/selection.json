@@ -13888,7 +13888,7 @@
 			},
 			"embed": false,
 			"showSelector": true,
-			"selector": "",
+			"selector": "i",
 			"classSelector": ".icon"
 		},
 		"imagePref": {
