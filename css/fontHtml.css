@@ -27,19 +27,31 @@
 		color: red;
 	}
 	@font-face{
+<<<<<<< HEAD
 		font-family: "icomoon-icon";
 		src:url("../fonts/icomoon.eot"); /* IE9 兼容模式 */
 		src:url("../fonts/icomoon.eot?#iefix")
 		,url("../fonts/icomoon.svg")
 		,url("../fonts/icomoon.ttf")
 		,url("../fonts/icomoon.woff");
+=======
+		font-family: "imooc-icon";
+		src: url("../fonts/icomoon.eot"); /* IE9 兼容模式 */
+		src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype")
+		,url("../fonts/icomoon.woff") format("woff")
+		,url("../fonts/icomoon.ttf") format("truetype")
+		,url("../fonts/icomoon.svg") format("svg");
+>>>>>>> origin/master
 		font-weight: normal;
 		font-style: normal;
 	}
 	.imooc-icon{
 		font-family: "icomoon-icon";
 		font-weight: normal;
+<<<<<<< HEAD
 		font-style: normal;
+=======
+>>>>>>> origin/master
 		font-size: 32px;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
@@ -47,6 +59,36 @@
 }
 
 
+	.icon-google-plus2:before{
+		content: "\e900";
+	}
+	.icon-google-drive:before{
+		content: "\e901";			
+	}
+	.icon-facebook2:before{
+		content: "\e902";
+	}
+	.icon-twitter:before{
+		content: "\e903";
+	}
+	.icon-youtube2:before{
+		content: "\e904";
+	}
+	.icon-behance2:before{
+		content: "\e905";
+	}	
+	.icon-steam2:before{
+		content: "\e906";
+	}
+	.icon-github:before{
+		content: "\e907";
+	}
+	.icon-appleinc:before{
+		content: "\e908";
+	}
+	.icon-android:before{
+		content: "\e909";
+	}
 
 /* .yt-overlay-main .yt-overlay-end span.move{
 	transform:rotate(7200deg);
